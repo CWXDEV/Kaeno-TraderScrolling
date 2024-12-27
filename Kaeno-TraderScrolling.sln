@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kaeno-TraderScrolling", "Kaeno-TraderScrolling.csproj", "{AAAFDBDB-22C2-4C5C-A747-7AE17B98AB94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAAFDBDB-22C2-4C5C-A747-7AE17B98AB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAFDBDB-22C2-4C5C-A747-7AE17B98AB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAFDBDB-22C2-4C5C-A747-7AE17B98AB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAFDBDB-22C2-4C5C-A747-7AE17B98AB94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D1AE13-D643-4585-A655-D0FA1D668C13}
+	EndGlobalSection
+EndGlobal

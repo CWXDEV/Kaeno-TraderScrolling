@@ -1,9 +1,8 @@
 ﻿using System.Reflection;
 using SPT.Reflection.Patching;
-using SPT.Reflection.Utils;
 using EFT.UI;
 using HarmonyLib;
-using UnityEngine;
+using Comfort.Common;
 
 namespace TraderScrolling
 {
@@ -17,7 +16,7 @@ namespace TraderScrolling
         [PatchPostfix]
         public static void PatchPostFix()
         {
-            var gameObject = GameObject.Find("Menu UI");
+            var gameObject = Singleton<MenuUI>.Instance.gameObject;
             var check = gameObject.GetComponentInChildren<TraderScrollingScript>();
 
 

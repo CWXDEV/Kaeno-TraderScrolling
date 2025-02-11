@@ -11,6 +11,7 @@ namespace TraderScrolling
         {
             //Adjusts Money position
             var rightPerson = GameObject.Find("Right Person");
+            
             var list = rightPerson.GetComponentsInChildren<RectTransform>(true).ToList();
             var money = list.FirstOrDefault(x => x.name == "Money");
             var moneyRect = money.GetComponent<RectTransform>();

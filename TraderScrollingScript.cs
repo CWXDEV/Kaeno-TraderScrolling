@@ -30,7 +30,7 @@ namespace TraderScrolling
             
             var count = countCards - 9;
             
-            //THIS IS DEFAULT
+            // THIS IS DEFAULT
             traderCardsRect.anchorMin = new Vector2(0.595f, 1f);
             
             // extra traders

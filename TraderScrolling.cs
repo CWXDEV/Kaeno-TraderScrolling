@@ -3,7 +3,7 @@ using BepInEx.Configuration;
 
 namespace TraderScrolling
 {
-    [BepInPlugin("com.kaeno.TraderScrolling", "Kaeno-TraderScrolling", "1.2.0")]
+    [BepInPlugin("com.kaeno.TraderScrolling", "Kaeno-TraderScrolling", "4.0.0")]
     public class TraderScrolling : BaseUnityPlugin
     {
         internal static ConfigEntry<float> ScrollWheelSpeed { get; set; }
